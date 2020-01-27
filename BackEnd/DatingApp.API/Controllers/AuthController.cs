@@ -36,6 +36,8 @@ namespace DatingApp.API.Controllers
             
             var userToCreate = new User
             {
+                Name = userForRegisterDto.Name,
+                Phone = userForRegisterDto.Phone,
                 UserName  = userForRegisterDto.Username
             };
 
